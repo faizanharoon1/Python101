@@ -1,3 +1,4 @@
+from datetime import date
 import sys
 
 # Type and print
@@ -41,3 +42,8 @@ print(middle_remover(list,2,3))
 
 for i in list:
     print(i)
+
+def GetdateToday():
+    return date.today()
+
+print(GetdateToday())
